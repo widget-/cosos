@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">COSGalleryStarter</string>
     <string name="title_image_detail">Image Detail</string>
+
+    <string name="objectstorageProjectId1">kellerbr-test1</string>
+    <string name="objectstorageAccessKey1">868b44159a3243ca9b35837a11027343</string>
+    <string name="objectstorageSecretAccessKey1">e99253a3d882131985050806349a518213c688d1c416a0b0</string>
+    <string name="objectstorageRegion1">us-geo</string>
+    <string name="objectstorageBucket1">rgeaefn50mjiv</string>
+    <string name="objectstorageEndpoint1">s3-api.us-geo.objectstorage.softlayer.net</string>
+
+    <string name="notification_channel_name">MY_APPLICATION_CHANNEL</string>
+    <string name="notification_channel_description">MY_APPLICATION_CHANNEL_DESCRIPTION</string>
+
+
+    <string name="title_list">Images</string>
+    <string name="title_detail">Image details</string>
+    <string name="upload">Upload image</string>
+    <string name="download">Download image</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.ibmcloud.example.cosgallerystarter;
+package com.ibmcloud.example.cosgallerystarter.detail;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,9 @@ import android.support.v7.app.ActionBar;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 
+import com.ibmcloud.example.cosgallerystarter.master.ImageListActivity;
+import com.ibmcloud.example.cosgallerystarter.R;
+
 /**
  * An activity representing a single Image detail screen. This
  * activity is only used on narrow width devices. On tablet-size devices,
@@ -22,7 +25,7 @@ public class ImageDetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_image_detail);
+        setContentView(R.layout.activity_detail);
         Toolbar toolbar = findViewById(R.id.detail_toolbar);
         setSupportActionBar(toolbar);
 

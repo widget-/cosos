@@ -10,7 +10,7 @@
     android:divider="?android:attr/dividerHorizontal"
     android:orientation="horizontal"
     android:showDividers="middle"
-    tools:context=".ImageListActivity">
+    tools:context=".master.ImageListActivity">
 
     <!--
     This layout is a two-pane layout for the Images
@@ -27,8 +27,8 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         app:layoutManager="LinearLayoutManager"
-        tools:context="com.ibmcloud.example.cosgallerystarter.ImageListActivity"
-        tools:listitem="@layout/image_list_content" />
+        tools:context="com.ibmcloud.example.cosgallerystarter.master.ImageListActivity"
+        tools:listitem="@layout/master_list_entry" />
 
     <FrameLayout
         android:id="@+id/image_detail_container"

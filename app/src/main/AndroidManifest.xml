@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ImageListActivity"
+            android:name=".master.ImageListActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -20,13 +20,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ImageDetailActivity"
+            android:name=".detail.ImageDetailActivity"
             android:label="@string/title_image_detail"
-            android:parentActivityName=".ImageListActivity"
+            android:parentActivityName=".master.ImageListActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.ibmcloud.example.cosgallerystarter.ImageListActivity" />
+                android:value="com.ibmcloud.example.cosgallerystarter.master.ImageListActivity" />
         </activity>
     </application>
 

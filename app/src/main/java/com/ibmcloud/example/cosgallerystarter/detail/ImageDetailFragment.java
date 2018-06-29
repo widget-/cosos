@@ -1,4 +1,4 @@
-package com.ibmcloud.example.cosgallerystarter;
+package com.ibmcloud.example.cosgallerystarter.detail;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
@@ -10,7 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.ibmcloud.example.cosgallerystarter.service.DummyContent;
+import com.ibmcloud.example.cosgallerystarter.master.ImageListActivity;
+import com.ibmcloud.example.cosgallerystarter.R;
 
 /**
  * A fragment representing a single Image detail screen.
@@ -58,7 +59,7 @@ public class ImageDetailFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.image_detail, container, false);
+        View rootView = inflater.inflate(R.layout.detail, container, false);
 
         // Show the dummy content as text in a TextView.
         if (mItem != null) {
